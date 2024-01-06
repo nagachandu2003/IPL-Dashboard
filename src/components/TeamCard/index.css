@@ -1,0 +1,46 @@
+.team-list-item {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 16px;
+  margin: 10px;
+}
+.item-link {
+  width: 40%;
+  outline: none;
+  text-decoration: none;
+}
+.team-logo {
+  height: 100px;
+  width: 100px;
+  margin-right: 15px;
+  object-fit: contain;
+}
+.tm-heading {
+  color: #ffffff;
+  font-size: 20px;
+}
+/* button {
+  cursor: pointer;
+}
+.button1 {
+  border-width: 0;
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Bree Serif';
+  outline: none;
+} */
+@media (max-width: 767px) {
+  .team-list-item {
+    width: 100%;
+  }
+  .item-link {
+    width: 100%;
+  }
+}

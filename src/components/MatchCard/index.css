@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.match-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  text-align: center;
+  background-color: #0f172a;
+  border-radius: 16px;
+  padding: 10px;
+  width: 45%;
+  margin: 10px;
+}
+.c1 {
+  font-family: 'Bree Serif';
+  color: #18ed66;
+  font-weight: bold;
+}
+.c2 {
+  font-family: 'Bree Serif';
+  color: #e31a1a;
+  font-weight: bold;
+}
+.h {
+  font-size: 10px;
+}
+.match-item-logo {
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+}
+@media (max-width: 767px) {
+  .match-item-logo {
+    height: 50px;
+    width: 50px;
+  }
+  .match-list-item {
+    width: 25%;
+  }
+}

@@ -1,0 +1,68 @@
+.latest-match-card {
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 16px;
+  color: #ffffff;
+  padding: 8px;
+  width: 90%;
+}
+.top-bg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+.tm3 {
+  font-size: 20px;
+}
+.tm1 {
+  font-size: 30px;
+}
+.tm2 {
+  font-size: 25px;
+}
+.compLogo {
+  height: 100px;
+  object-fit: contain;
+}
+.ll {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: left;
+}
+
+.line {
+  border: 1px solid #475569;
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+  .latest-match-card {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .ll1 {
+    text-align: left;
+  }
+  .ll {
+    text-align: right;
+  }
+  .compLogo {
+    height: 80px;
+  }
+  .line {
+    display: none;
+  }
+  .tm1 {
+    font-size: 15px;
+  }
+  .tm2 {
+    font-size: 10px;
+  }
+  .tm3 {
+    font-size: 8px;
+  }
+}
